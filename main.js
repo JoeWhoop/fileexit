@@ -8,7 +8,7 @@ document.getElementById("goButton").addEventListener("click", function () {
         window.location.href = "https://google.com"; // Redirect dla Aleks Czarnecki
     } else if (selectedOption === "Kacper Wydra") {
         window.location.href = "https://youtube.com"; // Redirect dla Kacper Wydra
-   } else if (selectedOption === "Sebastian Widuliński") {
+   } else if (selectedOption === "Sebastian Widulinski") {
         window.location.href = "https://google.com"; // Redirect Dla Sebastian Widuliński
     } else if (selectedOption === "Mateusz Gryglicki") {
         window.location.href = "https://youtube.com"; // Redirect dla Mateusz Gryglicki
