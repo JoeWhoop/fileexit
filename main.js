@@ -16,7 +16,5 @@ document.getElementById("goButton").addEventListener("click", function () {
         window.location.href = "https://google.com"; // Redirect  dla Mateusz Wiatr
     } else if (selectedOption === "Lysy") {
         window.location.href = "https://www.youtube.com/watch?v=RfhNDyjsW8Y";
-    } else {
-        alert("Please select an option before clicking Go.");
     }
 });
