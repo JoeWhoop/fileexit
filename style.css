@@ -16,11 +16,13 @@ body {
 
 /* Style for the dropdown menu */
 #optionDropdown {
-    width: 200px; /* Make it wider */
+    width: 300px; /* Adjust the width as needed */
     height: 80px; /* Double the height */
     font-size: 40px; /* Double the font size */
     border-radius: 10px; /* Make it more square */
     padding: 10px;
+    overflow: hidden; /* Hide overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
 }
 
 /* Style for the Go button */
