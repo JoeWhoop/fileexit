@@ -1,29 +1,36 @@
 /* Style for the page header */
 h1 {
-    font-size: 24px;
+    font-size: 28px; /* Increase font size */
     text-align: center;
+}
+
+/* Center the entire content */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 /* Style for the dropdown menu */
 #optionDropdown {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
+    width: 200px; /* Make it wider */
+    height: 40px; /* Make it taller */
+    font-size: 20px; /* Increase font size */
+    border-radius: 10px; /* Make it more square */
+    padding: 5px;
 }
 
 /* Style for the Go button */
 #goButton {
-    display: block;
-    margin: 20px auto;
+    margin-top: 20px;
     padding: 10px 20px;
+    font-size: 18px; /* Increase font size */
     background-color: #007bff; /* Blue color, you can change this */
     color: #fff;
-    font-size: 18px;
     border: none;
+    border-radius: 10px;
     cursor: pointer;
-}
-
-/* Style for the selected option in the dropdown */
-#optionDropdown option:checked {
-    font-weight: bold;
 }
