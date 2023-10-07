@@ -1,6 +1,6 @@
 /* Style for the page header */
 h1 {
-    font-size: 28px; /* Increase font size */
+    font-size: 56px; /* Increase font size */
     text-align: center;
 }
 
@@ -17,17 +17,17 @@ body {
 /* Style for the dropdown menu */
 #optionDropdown {
     width: 200px; /* Make it wider */
-    height: 40px; /* Make it taller */
-    font-size: 20px; /* Increase font size */
+    height: 80px; /* Double the height */
+    font-size: 40px; /* Double the font size */
     border-radius: 10px; /* Make it more square */
-    padding: 5px;
+    padding: 10px;
 }
 
 /* Style for the Go button */
 #goButton {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 18px; /* Increase font size */
+    margin-top: 40px;
+    padding: 20px 40px;
+    font-size: 36px; /* Double the font size */
     background-color: #007bff; /* Blue color, you can change this */
     color: #fff;
     border: none;
