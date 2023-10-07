@@ -1,10 +1,10 @@
-/* Style for the page header */
+/* Glowna */
 h1 {
-    font-size: 56px; /* Increase font size */
+    font-size: 56px; /* Zwieksza rozmiar */
     text-align: center;
 }
 
-/* Center the entire content */
+/* placement */
 body {
     display: flex;
     flex-direction: column;
@@ -14,23 +14,23 @@ body {
     margin: 0;
 }
 
-/* Style for the dropdown menu */
+/* droplist wyglad */
 #optionDropdown {
-    width: 300px; /* Adjust the width as needed */
-    height: 80px; /* Double the height */
-    font-size: 40px; /* Double the font size */
-    border-radius: 10px; /* Make it more square */
+    width: 300px; /* Szerokosc */
+    height: 80px; /* wysokosc  */
+    font-size: 40px; /* font size */
+    border-radius: 10px; /* ksztalt */
     padding: 10px;
-    overflow: hidden; /* Hide overflow text */
-    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* overflow text  */
+    white-space: nowrap; /* zawijanie tekstu */
 }
 
-/* Style for the Go button */
+/* wyglad go button */
 #goButton {
     margin-top: 40px;
     padding: 20px 40px;
-    font-size: 36px; /* Double the font size */
-    background-color: #007bff; /* Blue color, you can change this */
+    font-size: 36px; /* font size */
+    background-color: #007bff; /* kolor przycisku */
     color: #fff;
     border: none;
     border-radius: 10px;
